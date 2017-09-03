@@ -4,6 +4,6 @@ function addElementToBeginningOfArray(array, element){
   return array.push(element);
 };
 
-destructivelyAddElementToBeginningOfArray(array, element){
+function destructivelyAddElementToBeginningOfArray(array, element){
   return [element, ...array];
 }
