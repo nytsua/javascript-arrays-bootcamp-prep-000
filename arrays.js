@@ -9,5 +9,3 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   const newArray = [element, ...array]; 
   return newArray;
 }
-
-console.log(addElementToBeginningOfArray([1], 'foo'))
